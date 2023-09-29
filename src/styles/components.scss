@@ -1,0 +1,64 @@
+.btn {
+  padding: 12px 24px;
+  border-radius: 40px;
+  border: 0;
+  background: white;
+  color: black;
+  font-size: 18px;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navbar {
+  position: absolute;
+  width: 100%;
+  z-index: 99;
+  margin-top: 29px;
+}
+
+.logo-nav {
+  max-height: 41px;
+}
+
+.nav-menu {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex: 1;
+
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+}
+
+.nav-link-wrapper,
+.nav-btn-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+
+  @media screen and (max-width: 767px) {
+    gap: 40px;
+  }
+}
+
+.nav-link {
+  padding: 0px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.menu-button {
+  padding-right: 18px;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar.bg-trans {
+    margin-top: 24px;
+  }
+}

@@ -3,55 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fintrend</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Findtrend</title>
     <link href="https://fonts.cdnfonts.com/css/effra" rel="stylesheet" />
   </head>
   <body>
+    <div class="navbar bg-trans">
+      <div class="container flex align-center">
+        <a href="">
+          <img src="img/main-logo.png" alt="logo" class="logo-nav" />
+        </a>
+        <nav class="nav-menu">
+          <ul class="nav-link-wrapper my-auto">
+            <li><a href="" class="nav-link">About</a></li>
+            <li><a href="" class="nav-link">How it work</a></li>
+            <li><a href="" class="nav-link">Pricing</a></li>
+            <li><a href="" class="nav-link">Solution</a></li>
+            <li><a href="" class="nav-link">Features</a></li>
+          </ul>
+          <div class="nav-btn-wrapper">
+            <a href="" class="nav-link">Login</a>
+            <a href="" class="btn">Register</a>
+          </div>
+        </nav>
+        <div class="menu-button mobile ml-auto">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+
     <header class="hero bg-black">
       <div class="container">
-        <nav class="nav-bar desktop">
-          <div class="w-full flex justify-between align-center">
-            <div class="flex align-center">
-              <img src="img/Logo.svg" alt="" />
-              <h1>Findtrend</h1>
-            </div>
-            <ul class="nav-links flex space-10">
-              <li><a href="" class="link">About</a></li>
-              <li><a href="" class="link">How it work</a></li>
-              <li><a href="" class="link">Pricing</a></li>
-              <li><a href="" class="link">Solution</a></li>
-              <li><a href="" class="link">Features</a></li>
-            </ul>
-            <div>
-              <a href="">Login</a>
-              <a href="">Register</a>
-            </div>
-          </div>
-        </nav>
-
-        <nav class="flex justify-between align-center mobile">
-          <div class="flex align-center">
-            <img src="img/Logo.svg" alt="" />
-          </div>
-          <div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="w-6 h-6"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-              />
-            </svg>
-          </div>
-        </nav>
-
         <div class="text-center">
           <h2>Minimize your tabs.</h2>
           <h2>Find the trends!</h2>
@@ -60,7 +54,7 @@
             Findtrend let you gathers all of your favorite website into one
             place.
           </p>
-          <a href="">Get Started 🔥</a>
+          <a href="" class="btn">Get Started 🔥</a>
         </div>
       </div>
     </header>
@@ -250,5 +244,7 @@
         </ul>
       </div>
     </footer>
+
+    <script type="module" src="src/main.js"></script>
   </body>
 </html>
