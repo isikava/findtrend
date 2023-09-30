@@ -12,7 +12,7 @@
         <a href="">
           <img src="img/main-logo.png" alt="logo" class="logo-nav" />
         </a>
-        <nav class="nav-menu">
+        <nav class="nav-menu flex align-center flex-1">
           <ul class="nav-link-wrapper my-auto">
             <li><a href="" class="nav-link">About</a></li>
             <li><a href="" class="nav-link">How it work</a></li>
@@ -20,7 +20,7 @@
             <li><a href="" class="nav-link">Solution</a></li>
             <li><a href="" class="nav-link">Features</a></li>
           </ul>
-          <div class="nav-btn-wrapper">
+          <div class="nav-link-wrapper">
             <a href="" class="nav-link">Login</a>
             <a href="" class="btn">Register</a>
           </div>
@@ -44,46 +44,54 @@
       </div>
     </div>
 
-    <header class="hero bg-black">
+    <header class="section home-section">
       <div class="container">
-        <div class="text-center">
-          <h2>Minimize your tabs.</h2>
-          <h2>Find the trends!</h2>
-          <p>
+        <div class="max-w-666 my-auto text-center text-white">
+          <h2 class="text-2xl">Minimize your tabs.</h2>
+          <h2 class="text-2xl mb-6">Find the trends!</h2>
+          <p class="max-w-sm my-auto mb-10 text-grey">
             Don’t let your computer memories consumes all of those browser tabs.
             Findtrend let you gathers all of your favorite website into one
             place.
           </p>
-          <a href="" class="btn">Get Started 🔥</a>
+          <a href="" class="btn -brand -lg text-shadow">Get Started 🔥</a>
         </div>
+        <div class="tab-wrapper"></div>
       </div>
     </header>
 
     <main class="main">
-      <section class="bg-brand">
-        <div class="container flex flex-col align-center space-15">
-          <h2>Open new tabs is sh*t</h2>
-          <div>
-            <img src="img/tab5.png" alt="" />
+      <section class="section bg-brand">
+        <div class="container flex flex-col align-center text-center space-15">
+          <h2 class="text-2xl">Open new tabs is sh*t</h2>
+          <div class="p-20 bg-white rounded-4">
+            <div class="tab">
+              <img src="img/tab5.png" alt="" />
+            </div>
           </div>
-          <p>
+          <p class="max-w-666">
             A solution for your browser tabs and don’t make your device get
             slower over time. Get ease and faster to discover a trend with just
             one tab.
           </p>
         </div>
       </section>
-      <section class="bg-white">
+
+      <section class="section bg-white">
         <div class="container">
-          <h2>
+          <h2 class="text-xl">
             Findtrend helps you to increase your productivity and reduce your
             computer's memory load,
-            <span
+            <span class="text-grey"
               >an application that can fulfill your daily browsing needs.</span
             >
           </h2>
+        </div>
+      </section>
 
-          <h2 class="text-center">Findtrend make +1000 Startup grow</h2>
+      <section class="section bg-white text-center">
+        <div class="container">
+          <h2 class="text-xl mb-20">Findtrend make +1000 Startup grow</h2>
           <div>
             <ul class="brands-list">
               <li class="brand-item">
@@ -138,109 +146,156 @@
           </div>
         </div>
       </section>
-      <section class="bg-light">
+
+      <section class="section bg-light text-center">
         <div class="container">
-          <h2>All platform connect to Findtrend</h2>
-          <div class="socials-list">
-            <div class="social-item">
-              <img src="img/facebook.svg" alt="" />
-            </div>
-            <div class="social-item">
-              <img src="img/twitter.svg" alt="" />
-            </div>
-            <div class="social-item">
-              <img src="img/ball.svg" alt="" />
-            </div>
-            <div class="social-item">
-              <img src="img/pinterest.svg" alt="" />
-            </div>
-            <div class="social-item">
-              <img src="img/medium.svg" alt="" />
-            </div>
-            <div class="social-item">
-              <img src="img/reddit.svg" alt="" />
-            </div>
-            <div class="social-item">
-              <img src="img/vk.svg" alt="" />
-            </div>
-            <div class="social-item">
-              <img src="img/linkedin.svg" alt="" />
-            </div>
+          <h2 class="text-xl mb-20">All platform connect to Findtrend</h2>
+          <div class="socials-list mb-20">
+            <a href="">
+              <div class="social-item">
+                <img src="img/facebook.svg" alt="facebook" />
+              </div>
+            </a>
+            <a href="">
+              <div class="social-item">
+                <img src="img/twitter.svg" alt="twitter" />
+              </div>
+            </a>
+            <a href="">
+              <div class="social-item">
+                <img src="img/ball.svg" alt="ball" />
+              </div>
+            </a>
+            <a href="">
+              <div class="social-item">
+                <img src="img/pinterest.svg" alt="pinterest" /></div
+            ></a>
+            <a href="">
+              <div class="social-item">
+                <img src="img/medium.svg" alt="medium" />
+              </div>
+            </a>
+            <a href="">
+              <div class="social-item">
+                <img src="img/reddit.svg" alt="reddit" />
+              </div>
+            </a>
+            <a href="">
+              <div class="social-item">
+                <img src="img/vk.svg" alt="vk" />
+              </div>
+            </a>
+            <a href="">
+              <div class="social-item">
+                <img src="img/linkedin.svg" alt="linkedin" />
+              </div>
+            </a>
           </div>
-          <div class="flex flex-col justify-center space-4">
+          <div class="soc-embed-wrapper my-auto mb-20">
             <img src="img/tweet 1.png" alt="" />
             <img src="img/tweet 2.jpg" alt="" />
             <img src="img/tweet 3.png" alt="" />
           </div>
-          <a href="">View More Trend</a>
+          <a href="" class="btn -dark -lg">View More Trend</a>
         </div>
       </section>
-      <section class="bg-black">
-        <div class="text-center">
-          <h2>Get your best deal</h2>
 
-          <div class="flex justify-center align-center space-6">
-            <span>Monthly</span>
-            <img src="img/switch.svg" alt="" />
-            <span>Yearly</span>
-          </div>
-
-          <div class="deals-list">
-            <div class="deal-item">
-              <h4>Personal</h4>
-              <p>Special first packet for all</p>
-              <hr />
-              <p><span>$8</span>/Month</p>
-              <p>Up to 5 page each group</p>
-              <p>Up to 10 group page</p>
-              <p>5 Days group page saved</p>
-
-              <a href="">Start Free Trial</a>
-            </div>
-            <div class="deal-item">
-              <h4>Personal</h4>
-              <p>Special first packet for all</p>
-              <hr />
-              <p><span>$8</span>/Month</p>
-              <p>Up to 5 page each group</p>
-              <p>Up to 10 group page</p>
-              <p>5 Days group page saved</p>
-
-              <a href="">Start Free Trial</a>
-            </div>
-            <div class="deal-item">
-              <h4>Personal</h4>
-              <p>Special first packet for all</p>
-              <hr />
-              <p><span>$8</span>/Month</p>
-              <p>Up to 5 page each group</p>
-              <p>Up to 10 group page</p>
-              <p>5 Days group page saved</p>
-
-              <a href="">Start Free Trial</a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="bg-brand">
+      <section class="section bg-black">
         <div class="container text-center">
-          <h2>Join us on email for</h2>
-          <h2><span>more trending topics</span></h2>
-          <a href="">Join Now</a>
+          <h2 class="text-xl mb-10">Get your best deal</h2>
+
+          <div class="flex justify-center align-center mb-15">
+            <h3 class="text-ml text-white">Monthly</h3>
+            <div class="slide-btn">
+              <div class="slide-option"></div>
+            </div>
+            <h3 class="text-ml text-grey">Yearly</h3>
+          </div>
+
+          <div class="plan-wrapper">
+            <div class="card bg-white">
+              <div class="card-head">
+                <h3 class="headline">Personal</h3>
+                <h4 class="subhead">Special first packet for all</h4>
+              </div>
+              <div class="card-body">
+                <h3 class="price">$8<span>/Month</span></h3>
+                <ul class="plan-list">
+                  <li class="item">Up to 5 page each group</li>
+                  <li class="item">Up to 10 group page</li>
+                  <li class="item">5 Days group page saved</li>
+                </ul>
+              </div>
+              <a href="" class="btn -brand -lg mt-auto w-full text-center"
+                >Start Free Trial</a
+              >
+            </div>
+
+            <div class="card bg-brand">
+              <div class="card-head">
+                <h3 class="headline">Regular</h3>
+                <h4 class="subhead">Recommended for personal pro</h4>
+              </div>
+              <div class="card-body">
+                <h3 class="price">$20<span>/Month</span></h3>
+                <ul class="plan-list">
+                  <li class="item">Up to 15 page each group</li>
+                  <li class="item">Download page up to 20 page</li>
+                  <li class="item">Up to 10 group page</li>
+                  <li class="item">15 Days group page saved</li>
+                </ul>
+              </div>
+              <a href="" class="btn -dark -lg mt-auto w-full text-center"
+                >Start Free Trial</a
+              >
+            </div>
+
+            <div class="card bg-white">
+              <div class="card-head">
+                <h3 class="headline">Premium</h3>
+                <h4 class="subhead">Packet for Startup & Company</h4>
+              </div>
+              <div class="card-body">
+                <h3 class="price">$48<span>/Month</span></h3>
+                <ul class="plan-list">
+                  <li class="item">Unlimited group pages</li>
+                  <li class="item">Unlimited download page</li>
+                  <li class="item">Unlimited page each group</li>
+                  <li class="item">Customize sorting group pages</li>
+                  <li class="item">Customize group page name</li>
+                  <li class="item">30 Days group page saved</li>
+                </ul>
+              </div>
+
+              <a href="" class="btn -brand -lg mt-auto w-full text-center"
+                >Start Free Trial</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section bg-brand">
+        <div class="container text-center">
+          <h2 class="text-2xl">Join us on email for</h2>
+          <h2 class="text-2xl mb-10">
+            <span class="text-green">more trending topics</span>
+          </h2>
+          <a href="" class="btn -dark -lg">Join Now</a>
         </div>
       </section>
     </main>
-    <footer>
-      <div class="footer container">
-        <div class="flex align-center">
-          <img src="img/Logo-dark.svg" alt="" />
-          <h2>Findtrend</h2>
-        </div>
-        <ul class="footer-nav">
-          <li><a href="" class="link">Privacy Policy</a></li>
-          <li><a href="" class="link">Terms and Conditions</a></li>
-          <li><a href="" class="link">Contact Us</a></li>
-          <li><a href="" class="link">Careers</a></li>
+
+    <footer class="footer">
+      <div class="container footer-flex-container">
+        <a href="">
+          <img src="img/main-logo-dark.png" alt="logo" class="logo-nav" />
+        </a>
+        <ul class="footer-link-wrapper">
+          <li><a href="" class="footer-link">Privacy Policy</a></li>
+          <li><a href="" class="footer-link">Terms and Conditions</a></li>
+          <li><a href="" class="footer-link">Contact Us</a></li>
+          <li><a href="" class="footer-link">Careers</a></li>
         </ul>
       </div>
     </footer>
